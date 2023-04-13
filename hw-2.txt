@@ -1,0 +1,12 @@
+1 git restore <file>
+2 git log
+  получить хэш коммита
+  git checkout 3f25701874aa5a2c16cc6275fa30baa5b6e477a6 <file>
+3 git reset --soft HEAD@{1}
+4 git checkout -b new_branch
+5 git init 
+  git remote add origin https://tel-hub@github.com/tel-hub/git_lesson-2.git
+  git checkout -b main
+  git add .
+  git commit -am 'init'
+  git push --set-upstream origin master
